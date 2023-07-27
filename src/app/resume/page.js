@@ -1,3 +1,3 @@
 export default function ResumePage() {
-  return <div>Currículo</div>;
+  return <div className="">Currículo</div>;
 }

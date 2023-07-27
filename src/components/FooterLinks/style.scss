@@ -1,0 +1,114 @@
+:root {
+  --brand-color-linkedin: #0a66c2;
+  --brand-color-github: #181717;
+  --brand-color-instagram: #e4405f;
+  --brand-color-medium: #000;
+  --icon-background-color: #252631;
+  --text-color: #ececec;
+  --primary-pink: #d6827e;
+}
+
+.social__media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  & li {
+    display: inline-flex;
+    margin: 0 15px;
+    &:nth-child(1) {
+      & a {
+        &:hover {
+          & svg {
+            fill: var(--primary-pink);
+          }
+        }
+      }
+    }
+    &:nth-child(2) {
+      & a {
+        &:hover {
+          & svg {
+            fill: var(--primary-pink);
+          }
+        }
+      }
+    }
+    &:nth-child(3) {
+      & a {
+        &:hover {
+          & svg {
+            fill: var(--primary-pink);
+          }
+        }
+      }
+    }
+    &:nth-child(4) {
+      & a {
+        &:hover {
+          & svg {
+            fill: var(--primary-pink);
+          }
+        }
+      }
+    }
+    & a {
+      font-size: 20px;
+      text-decoration: none;
+      color: var(--text-color);
+      display: flex;
+      width: 50px;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      transition: 0.5s ease all;
+      padding: 10px;
+      & svg {
+        display: flex;
+        font-size: 3rem;
+        fill: var(--text-color);
+        z-index: 999;
+        will-change: transform;
+        transform-style: preserve-3d;
+        transition: 0.5s ease all;
+      }
+      &:after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        background-color: var(--icon-background-color);
+        transform: scale3d(1, 1, 1);
+        transform-origin: 50% 50%;
+        will-change: transform;
+        transform-style: preserve-3d;
+        transition: 0.25s ease-out;
+        padding: 8px;
+      }
+      &:hover {
+        &:after {
+          transform: scale3d(0, 0, 0);
+          transition: 0.25s ease-in;
+        }
+        & svg {
+          fill: white;
+          transform: scale3d(1.5, 1.5, 1);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  .social__media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+}

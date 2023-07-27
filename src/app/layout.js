@@ -1,7 +1,22 @@
-import "./globals.css";
+import DesktopMenu from "@/components/DesktopMenu";
 import { Tilt_Neon, Lora, Montserrat } from "next/font/google";
+import "./globals.css";
+import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const lora = Lora({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600", "700"],
+});
+
+const tiltNeon = Tilt_Neon({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +26,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${lora.className} ${tiltNeon.className} ${montserrat.className} `}
+      >
+        <DesktopMenu />
+        <main className="text-white max-w-[1024px] mx-auto">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }

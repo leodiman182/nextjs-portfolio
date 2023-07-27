@@ -1,4 +1,5 @@
 import { usePathname, useRouter } from "next/navigation";
+
 const Logo = () => {
   const pathname = usePathname();
   const router = useRouter();
@@ -11,7 +12,7 @@ const Logo = () => {
       <span
         className={
           pathname === "/"
-            ? "text-my-pink-100 font-700 group-hover:cursor-pointer duration-150 ease-in-out neon"
+            ? "text-primary-light font-700 group-hover:cursor-pointer duration-150 ease-in-out neon"
             : "text-slate-900 font-700 group-hover:cursor-pointer duration-150 ease-in-out"
         }
       >
@@ -21,7 +22,7 @@ const Logo = () => {
       <span
         className={
           pathname === "/"
-            ? "text-my-pink-100 group-hover:cursor-pointer duration-150 ease-in-out neon"
+            ? "text-primary-light group-hover:cursor-pointer duration-150 ease-in-out neon"
             : "text-my-pink-500 group-hover:cursor-pointer duration-150 ease-in-out"
         }
       >
@@ -31,7 +32,7 @@ const Logo = () => {
       <span
         className={
           pathname === "/"
-            ? "text-my-pink-100 font-700 group-hover:cursor-pointer duration-150 ease-in-out neon"
+            ? "text-primary-light font-700 group-hover:cursor-pointer duration-150 ease-in-out neon"
             : "text-slate-900 font-700 group-hover:cursor-pointer duration-150 ease-in-out"
         }
       >
