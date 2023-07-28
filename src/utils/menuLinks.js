@@ -9,7 +9,7 @@ export const menuLinks = [
   },
   {
     name: "sobre mim",
-    ref: "about",
+    ref: "about-me",
   },
   {
     name: "contato",

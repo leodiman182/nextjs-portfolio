@@ -1,12 +1,9 @@
-import { Button, ThemeProvider } from "@mui/material";
-import theme from "@/styles/theme";
+import "./style.scss";
 
 export default function CustomButtom({ onClick, children }) {
   return (
-    <ThemeProvider theme={theme}>
-      <Button onClick={onClick} variant="contained">
-        {children}
-      </Button>
-    </ThemeProvider>
+    <div onClick={onClick} className="container">
+      <button>{children}</button>
+    </div>
   );
 }

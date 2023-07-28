@@ -2,6 +2,7 @@ import DesktopMenu from "@/components/DesktopMenu";
 import { Tilt_Neon, Lora, Montserrat } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import MobileMenu from "@/components/MobileMenu";
 
 const lora = Lora({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
         className={`${lora.className} ${tiltNeon.className} ${montserrat.className} `}
       >
         <DesktopMenu />
+        <MobileMenu />
         <main className="text-white max-w-[1024px] mx-auto">{children}</main>
         <Footer />
       </body>
