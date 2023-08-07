@@ -13,13 +13,13 @@ export default function AboutMePage() {
       <article className="flex flex-col justify-center md:grid md:grid-cols-2 md:mb-[40px]">
         <aside className="mb-[28px] md:mb-0 md:col-span-1">
           <Image
-            className="visible p-[8px] bg-primary-main hover:bg-primary-light w-[250px] rounded-full mx-auto duration-150 md:mt-[40px] avatar-float"
+            className="visible p-[8px] bg-secondary-dark hover:bg-secondary-main w-[250px] rounded-full mx-auto duration-150 md:mt-[40px] avatar-float"
             src={profilePic}
             alt="Profile pic Leonardo"
           />
         </aside>
         <aside className="md:col-span-1 md:pr-[75px] px-[20px] md:px-0">
-          <h4 className="font1 text-primary-main text-[20px] text-justify md:text-left uppercase mb-[20px] md:mb-[10px] font-medium">
+          <h4 className="font1 text-tertiary-main text-[20px] text-justify md:text-left uppercase mb-[20px] md:mb-[10px] font-medium">
             Muito prazer! Eu sou o Léo :)
           </h4>
           <p className="font1 text-white text-[18px] font-normal">
@@ -35,7 +35,7 @@ export default function AboutMePage() {
             passo horas jogando, se puder) e fui co-host de um podcast
             descontraído (com a marca de 50 episódios no ar) chamado{" "}
             <a
-              className="text-primary-main md:text-white hover:text-primary-main duration-150 font-bold"
+              className="text-primary-main md:text-white hover:text-tertiary-main duration-150 font-bold"
               target="_blank"
               href="https://www.youtube.com/@ProsaInterior"
               rel="noreferrer"

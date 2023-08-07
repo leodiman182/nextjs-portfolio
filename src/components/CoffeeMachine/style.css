@@ -46,8 +46,8 @@
   top: calc(50% - 25px);
   left: calc(50% - 25px);
   border-radius: 50%;
-  background-color: #fa5aad;
-  border: 5px solid #ad3e78;
+  background-color: #31abd6;
+  border: 5px solid #27708a;
   box-sizing: border-box;
 }
 .coffee-header__details {
@@ -245,7 +245,7 @@
   position: absolute;
   bottom: 25px;
   left: calc(50% - 47.5%);
-  background-color: #d64e95;
+  background-color: #31abd6;
   border-radius: 10px;
 }
 .coffee-footer::after {

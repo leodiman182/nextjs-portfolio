@@ -9,11 +9,11 @@ module.exports = {
     extend: {
       colors: {
         // THEME COLORS
-        "primary-main": "#d6827e",
-        "primary-light": "#ffb4b0",
-        "primary-dark": "#8a4743",
-        "secondary-main": "#7ed6a0",
-        "secondary-dark": "#368a56",
+        "primary-main": "#D74769",
+        "primary-dark": "#8A2038",
+        "secondary-main": "#31ABD6",
+        "secondary-dark": "#27708A",
+        "tertiary-main": "#D6CF5C",
         /* PROJECT COLORS */
         project1: "#000228",
         project2: "#f4623a",

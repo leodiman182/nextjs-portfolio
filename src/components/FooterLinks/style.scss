@@ -1,11 +1,7 @@
 :root {
-  --brand-color-linkedin: #0a66c2;
-  --brand-color-github: #181717;
-  --brand-color-instagram: #e4405f;
-  --brand-color-medium: #000;
   --icon-background-color: #252631;
   --text-color: #ececec;
-  --primary-pink: #d6827e;
+  --primary-color: #d6cf5c;
 }
 
 .social__media {
@@ -20,7 +16,7 @@
       & a {
         &:hover {
           & svg {
-            fill: var(--primary-pink);
+            fill: var(--primary-color);
           }
         }
       }
@@ -29,7 +25,7 @@
       & a {
         &:hover {
           & svg {
-            fill: var(--primary-pink);
+            fill: var(--primary-color);
           }
         }
       }
@@ -38,7 +34,7 @@
       & a {
         &:hover {
           & svg {
-            fill: var(--primary-pink);
+            fill: var(--primary-color);
           }
         }
       }
@@ -47,7 +43,7 @@
       & a {
         &:hover {
           & svg {
-            fill: var(--primary-pink);
+            fill: var(--primary-color);
           }
         }
       }

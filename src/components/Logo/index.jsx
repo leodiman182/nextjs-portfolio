@@ -12,7 +12,7 @@ const Logo = () => {
       <span
         className={
           pathname === "/"
-            ? "text-primary-light font-700 group-hover:cursor-pointer duration-150 ease-in-out neon"
+            ? "text-secondary-main font-700 group-hover:cursor-pointer duration-150 ease-in-out neon"
             : "text-slate-900 font-700 group-hover:cursor-pointer duration-150 ease-in-out"
         }
       >
@@ -22,7 +22,7 @@ const Logo = () => {
       <span
         className={
           pathname === "/"
-            ? "text-primary-light group-hover:cursor-pointer duration-150 ease-in-out neon"
+            ? "text-secondary-main group-hover:cursor-pointer duration-150 ease-in-out neon"
             : "text-my-pink-500 group-hover:cursor-pointer duration-150 ease-in-out"
         }
       >
@@ -32,7 +32,7 @@ const Logo = () => {
       <span
         className={
           pathname === "/"
-            ? "text-primary-light font-700 group-hover:cursor-pointer duration-150 ease-in-out neon"
+            ? "text-secondary-main font-700 group-hover:cursor-pointer duration-150 ease-in-out neon"
             : "text-slate-900 font-700 group-hover:cursor-pointer duration-150 ease-in-out"
         }
       >

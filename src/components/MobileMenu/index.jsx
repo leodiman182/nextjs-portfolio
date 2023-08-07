@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
+"use client";
 import { useEffect, useState } from "react";
 import Logo from "../Logo";
 import { menuLinks } from "../../utils/menuLinks";
@@ -65,7 +66,7 @@ const MobileMenu = () => {
                 <span
                   className={
                     pathname === item.ref
-                      ? "bg-primary-light py-[4px] font-medium text-black opacity-100 uppercase"
+                      ? "bg-secondary-main py-[4px] font-medium text-black opacity-100 uppercase"
                       : "text-white opacity-80 group-hover:opacity-100 duration-150 uppercase"
                   }
                 >
