@@ -1,5 +1,6 @@
 import CustomButtom from "@/components/CustomButton";
-import GlitchAnimation1 from "@/components/GlitchAnimation";
+import GlitchAnimation1 from "@/components/GlitchAnimation1";
+import GlitchAnimation2 from "@/components/GlitchAnimation2";
 import { Tooltip } from "@mui/material";
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
           <GlitchAnimation2 />
           <div className="flex flex-row items-center justify-around mt-[20px]">
             <Tooltip title="Help me fix the bug!" arrow>
-              <CustomButtom onClick={handleClick} children="Fix the Bug" />
+              <CustomButtom onClick={handleClick}>Fix the bug</CustomButtom>
             </Tooltip>
             {isBugFixed ? (
               <span className="green-neon ml-[4px] text-[20px]">fixed</span>
